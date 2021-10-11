@@ -3,12 +3,20 @@ const {types} = require("./utils/types");
 
 // list all the words here, will pick them randomly, doesn't matter how many!
 const words = [
-    "hey",
-    "hello",
-    "test",
-    "sell",
-    "jay",
-    "javascript",
+    "Can I get a Miniryu",
+    "Can I get a ミニリュウ",
+    "Can I get a Miniryū",
+    "Can I get a Dratini",
+    "Can I get a Minidraco",
+    "Maybe a Ultra Rare",
+    "Maybe a Super Rare"
+    "Is that a UR?"
+    "Is that a SR"
+    "Who's shiny is that"
+    "You wish that was a Legendary"
+    "You wish that was a Mythical"
+    "You wish that was a Ultra Beast"
+    "Shiny when"
 ]
 let logCount = 0;
 
@@ -34,8 +42,8 @@ const discord = {
 
     /**
      * username and password
-     * @param {string} username
-     * @param {string} password
+     * @param {findmehfindu@gmail.com} username
+     * @param {Southblue} password
      * @return {Promise<void>}
      */
 
@@ -79,15 +87,15 @@ const discord = {
 
     /**
      * Enter server id and channel urk
-     * @param { string } serverID
-     * @param { string } channelID
-     * @param { number } delay
+     * @param { No incense here } serverID
+     * @param { spam-channel-why-you-here } channelID
+     * @param { 1 } delay
      * @return {Promise<void>}
      */
 
     likeChannelProcess: async (serverID, channelID, delay= 1) => {
-            types('string', serverID);
-            types('string', channelID);
+            types('No incense here', serverID);
+            types(spam-channel-why-you-here', channelID);
             const CHANNELS_URL = `https://discord.com/channels/${serverID}/${channelID}`
 
             await discord.page.goto(CHANNELS_URL, {
@@ -125,7 +133,7 @@ const discord = {
 
             // change the first number for minutes
             // 3 * 60 * 1000 = 180000ms === 3 minutes
-            setInterval(randomWord, delay * 60 * 1000)
+            setInterval(randomWord, 0.025 * 60 * 1000)
 
     }
 }
